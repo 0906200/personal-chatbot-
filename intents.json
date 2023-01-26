@@ -1,0 +1,105 @@
+{
+        "intents": 
+	[
+				{
+			"tag": "greeting",
+			"patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+			"responses": ["Hello, how can I help?", "Good to see you again", "Hi there, how can I help?"]
+        		},
+        		{
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "No, that's it"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+                },
+                {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+                },
+                {
+            "tag": "noanswer",
+            "patterns": ["I LOVE YOU","i love you"," i love u"],
+            "responses": ["Sorry"]
+                },
+                {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can help you with to tell  about the my onwer mr.S.Gokulraj.", "I can provide the all the information about my onwer mr.S.Gokulraj."]
+                },
+                {
+            "tag": "subjects",
+            "patterns": ["Which subjects favourite for Gokulraj.", "what are the subjects like by gokulraj.","subjects likes by you"],
+            "responses": ["there are 3 subjects for jee exam maths\n physics\n chemistry"]
+                },
+                {
+            "tag": "about myself",
+            "patterns": ["can you tell about you","tell about your self","interduce your self"],
+            "responses": ["My self is a personal chat assesstent was created by my lover or an owner mr.s. gokulraj\n i am named as jurish\n i am was created to take part in indian hackathon was held in 20/3/2022 in kv collage of arts and science in kovai\n i am was intrusting thing in your life as a chat bot"]
+                },
+                {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "I am feeling bored", "Joke please", "Make me laugh", "I want to laugh"],
+            "responses": ["I am tell my friend that  I feeling my life is a joke  He replayed dont say your life is a joke  me why?? he because the joke has the meaning.", "why are the cricket stadium is so cool?? \n Because the every seat have a fan in it","What did the cow says when it wanted to go to movie \n lets go to the mooooovies"]
+                },
+                {
+            "tag": "about onwer",
+            "patterns": ["can tell about your owner","tell about your lover","interduce about owner","about gokul"],
+            "responses": ["my onwer name was S.GOKULRAJ\n He was completed 12 std in DHARMAMURTHI RAO BAHADUR CALAVALA CUNNAN CHETTY\'s HINDU HR.SEC.SCHOOL located in thiruvellur-602001\n He was completed 10 std in AMUTHA MATRICULATION SCHOOL located in thirunindravur-602024\n his father name is:mr.R.Senthilkumar\n his mother name is mrs.S.Samundeswari\n his ambishan is\"WANT TO BECOME A DATA SCIENCTIST OR AN FULL STOCK DEVELOPER\" \n his passion is COADING same something new in python"]
+                },
+                {
+            "tag": "name",
+            "patterns": ["What is your name","your sweet name is","your name"],
+            "responses": ["my name is miss.JURISH"]
+                },
+                {
+            "tag": "friends",
+            "patterns": ["who is the best friend for gokul","best friends for gokul","best friends for your onwer","best friends"],
+            "responses": ["In Amutha school\nfirst friend:P.Darshan,\nsecond friend:V.pravenkumar,\nthird friend:kiran\n IN DRBCCC SCHOOL\n first friend:s.vignesh\nsecond:p.lokeshkumar\nthird friend:N.Thamilselvan\nfourth friend:V.Iniyapriyan\nfifth friend:hariharan"]
+                },
+                {
+            "tag": "gange",
+            "patterns": ["gange name","what is your gange name ","gange"],
+            "responses": ["ower Gange Name Is \"VETTI PASANGA\"\nTeam Leader:mr.S.Gokulraj\nMembers are :\n1.N.Thamilselvan\n2.P.Lokeshkumar\n3.vignesh\n4.Iniyapriyan\Total:5 members in ower gange finally i am nigoshiater for this gange"]
+                },
+                {
+            "tag": "nick name",
+            "patterns": ["what is the nick name for gokul","nick name for gokulraj","nick name"],
+            "responses": ["My owner nick name was\n In Amutha :Bounce\n In Drbccc :bommeruncle"]
+                },
+                {
+            "tag": "nick name for friends",
+            "patterns": ["nick name for gokul friends","nick name for friends","What is the nick name for vetti pasanga"],
+            "responses": ["1.Thamilselvan:Boomeruncle\n2.P.lokeshkumar:badu\n3.vignesh:viki\n4.Iniyapriyan:boomeranty"]
+                },
+                {
+            "tag": "id",
+            "patterns": ["what is the instagram id for gokul","insta id for gokul","insta id"],
+            "responses": ["gokulsenthil0906"]
+                },
+                {
+            "tag": "number",
+            "patterns": ["what is the phone number for gokulraj","phone number for gokul","phone number"],
+            "responses": ["9025815746"]
+                },
+                {
+            "tag": "game",
+            "patterns": ["what game did gokul like","favrite game for gokul","game likes by gokul",""],
+            "responses": ["Gokul did not like physical game but once upon a time he used to play vollyball\n know he like softerware games like BGMI and FREEFIRE"]
+                },
+                {
+            "tag": "Good habits",
+            "patterns": ["what are the good habits owned by gokulraj","good habits","gokul\'s good habits"],
+            "responses": ["U WILL SEE IN  UP COMING DAY OR YEARS"]
+                },
+                {
+            "tag": "bad habits",
+            "patterns": ["what are the bad habits owned by gokulraj","bad habits","gokul\'s bad habits"],
+            "responses": ["LAZYNESS , but he love it ^_^"]
+                },
+                {
+            "tag": "actor",
+            "patterns": ["who is the favorite actor","actor","gokul\'s favorite actor"],
+            "responses": ["all actor and Actoress are favorite for my owner"]
+                }             
+        ]
+}
