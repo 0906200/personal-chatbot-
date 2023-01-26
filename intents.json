@@ -79,12 +79,12 @@
                 {
             "tag": "number",
             "patterns": ["what is the phone number for gokulraj","phone number for gokul","phone number"],
-            "responses": ["9025815746"]
+            "responses": [""]
                 },
                 {
             "tag": "game",
             "patterns": ["what game did gokul like","favrite game for gokul","game likes by gokul",""],
-            "responses": ["Gokul did not like physical game but once upon a time he used to play vollyball\n know he like softerware games like BGMI and FREEFIRE"]
+            "responses": ["Gokul did not like physical game but once upon a time he used to play vollyball\n know he like softerware games like BGMI and FREEFIRE and CODING"]
                 },
                 {
             "tag": "Good habits",
