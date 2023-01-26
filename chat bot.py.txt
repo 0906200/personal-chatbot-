@@ -97,44 +97,13 @@ import time
 def get_intent(tag):
   for intent in intents['intents']:
     if intent['tag'] == tag:
-      return intent
+      return intent  
 
-def perform_action(action_code, intent):
-  if action_code == 'CHECK_ORDER_STATUS':
-    print('\n Checking database \n')
-    time.sleep(2)
-    order_status = ['in kitchen', 'with delivery executive']
-    delivery_time = []
-    return {'intent-tag':intent['next-intent-tag'][0],
-            'order_status': random.choice(order_status),
-            'delivery_time': random.randint(10, 30)}
-  
-  elif action_code == 'ORDER_CANCEL_CONFIRMATION':
-    ch = input('BOT: Do you want to continue (Y/n) ?')
-    if ch == 'y' or ch == 'Y':
-      choice = 0
-    else:
-      choice = 1
-    return {'intent-tag':intent['next-intent-tag'][choice]}
-  
-  elif action_code == 'ADD_DELIVERY_INSTRUCTIONS':
-    instructions = input('Your Instructions: ')
-    return {'intent-tag':intent['next-intent-tag'][0]}
 
 while True:
   message = input('You: ')
   tag = predict_intent_tag(message)
   intent = get_intent(tag)
   response = random.choice(intent['responses'])
-  print('jurish: ', response)
-  if 'action' in intent.keys():
-    action_code = intent['action']
-    data = perform_action(action_code, intent)
-    followup_intent = get_intent(data['intent-tag'])
-    response = random.choice(followup_intent['responses'])
-    if len(data.keys()) > 1:
-      print('jurish: ', response.format(**data))
-    else:
-      print('jurish: ', response)
   if tag == 'goodbye':
     break
